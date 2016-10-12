@@ -16,7 +16,7 @@ var map; //<-- This is now available to both event listeners and the initialize(
 function initMap() {
 	var mapOptions = {
 		center: new google.maps.LatLng(52.512814, 13.325160),
-		zoom: 16,
+		zoom: 15,
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	};
 	map = new google.maps.Map(document.getElementById("map"),
