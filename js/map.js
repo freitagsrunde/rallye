@@ -12,7 +12,7 @@ function googleError() {
 //
 //}
 
-var map; //<-- This is now available to both event listeners and the initialize() function
+/*var map; //<-- This is now available to both event listeners and the initialize() function
 function initMap() {
 	var mapOptions = {
 		center: new google.maps.LatLng(52.512814, 13.325160),
@@ -26,4 +26,7 @@ function initMap() {
 		var center = map.getCenter();
 		google.maps.event.trigger(map, "resize");
 		map.setCenter(center); 
-	});}
+	});}*/
+
+
+
